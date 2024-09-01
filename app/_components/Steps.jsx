@@ -1,4 +1,6 @@
+import Image from 'next/image'
 import React from 'react'
+
 
 export default function Steps() {
   return (
@@ -12,7 +14,8 @@ export default function Steps() {
               Paste the code that you want to generate a code snippet for
             </span>
           </div>
-          <div className='bg-[#D4D4D8] w-[250px] h-[250px]  md:w-[450px] md:h-[450px]'>
+          <div className=' w-[250px] h-[250px]  md:w-[450px] md:h-[450px] justify-center items-center flex'>
+            <Image src="/pastecode.png" alt="code" width={1920} height={1920} className='w-fit h-fit'  />
           </div>
         </div>
         <div className='text-white flex flex-col md:flex-row gap-8 items-center justify-between w-full'>
@@ -24,7 +27,8 @@ export default function Steps() {
             Select the programming language that your code are written with
             </span>
           </div>
-          <div className='bg-[#D4D4D8] w-[250px] h-[250px]  md:w-[450px] md:h-[450px]'>
+          <div className=' w-[250px] h-[250px]  md:w-[450px] md:h-[450px] justify-center items-center flex'>
+            <Image src="/pasted.png" alt="code" width={1920} height={1920} className='w-fit h-fit'  />
           </div>
         </div>
         <div className='text-white flex flex-col md:flex-row gap-8 items-center justify-between w-full'>
@@ -36,7 +40,8 @@ export default function Steps() {
             change your background or leave it in the default value
             </span>
           </div>
-          <div className='bg-[#D4D4D8] w-[250px] h-[250px]  md:w-[450px] md:h-[450px]'>
+          <div className=' w-[250px] h-[250px]  md:w-[450px] md:h-[450px] justify-center items-center flex'>
+            <Image src="/changebg.png" alt="code" width={1920} height={1920} className='w-fit h-fit'  />
           </div>
         </div>
         <div className='text-white flex flex-col md:flex-row gap-8 items-center justify-between w-full'>
@@ -48,7 +53,8 @@ export default function Steps() {
             export the image and enjoy
             </span>
           </div>
-          <div className='bg-[#D4D4D8] w-[250px] h-[250px]  md:w-[450px] md:h-[450px]'>
+          <div className=' w-[250px] h-[250px]  md:w-[450px] md:h-[450px] justify-center items-center flex'>
+            <Image src="/code.png" alt="code" width={1920} height={1920} className='w-fit h-fit'  />
           </div>
         </div>
     </section>
