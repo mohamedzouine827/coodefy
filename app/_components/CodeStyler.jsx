@@ -113,6 +113,7 @@ const CodeStyler = () => {
           <option value="python">Python</option>
           <option value="html">HTML</option>
           <option value="css">CSS</option>
+          <option value="typescript">Typescript</option>
         </select>
         <div className='text-[16px] text-white cursor-pointer font-normal bg-[#09090B] items-center justify-center flex px-4 gap-2 rounded'>
           change Background
